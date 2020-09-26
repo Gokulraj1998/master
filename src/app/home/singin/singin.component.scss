@@ -1,0 +1,38 @@
+.login-card {
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: auto;
+    box-shadow: 1px 1px 3px grey;
+    border-radius: 6px;
+}
+
+.login-card>h3 {
+    text-align: center;
+    font-size: larger;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.usericon {
+    padding-left: 15%;
+    position: relative;
+    bottom: -10px;
+}
+
+.login_btn {
+    margin-left: 40%;
+}
+
+.mat-progress-bar {
+    display: none;
+    position: relative;
+    bottom: -21px;
+    height: 3px;
+    width: 400px;
+    border-radius: 0px 0px 6px 6px;
+    left: -20px;
+}
